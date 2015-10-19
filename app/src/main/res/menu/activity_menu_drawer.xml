@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@drawable/list"
+            android:title="Listy zakupów" />
+        <item android:id="@+id/nav_gallery" android:icon="@drawable/card"
+            android:title="Moje karty" />
+        <item android:id="@+id/nav_slideshow" android:icon="@drawable/bills"
+            android:title="Moje paragony" />
+    </group>
+
+    <item android:title="Ustawienia">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@drawable/settings"
+                android:title="Profil" />
+        </menu>
+    </item>
+
+</menu>

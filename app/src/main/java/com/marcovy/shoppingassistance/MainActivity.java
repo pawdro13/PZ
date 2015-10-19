@@ -14,24 +14,13 @@ public class MainActivity extends AppCompatActivity {
 
     static int cnt = 0;
 
-    @ViewById
-    Button testButton;
-
-    @ViewById
-    TextView testTextView;
-
 //    @Override
 //    protected void onCreate(Bundle savedInstanceState) {
 //        super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_main);
 //    }
 
-    @Click(R.id.testButton)
-    void btnClick()
-    {
-        testTextView.setText(String.valueOf(cnt));
-        cnt++;
-    }
+
 
 }
 
